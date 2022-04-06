@@ -1,0 +1,21 @@
+#log-in .par{
+    position: relative;
+}
+
+#log-in .iconr{
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    color: red;
+}
+
+#log-in .icong{
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    color: rgb(0, 255, 42);
+}
+
+.red-border{
+    border-color: red !important;
+}

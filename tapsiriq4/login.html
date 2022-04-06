@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center py-5">
+      <div class="col-lg-4">
+        <form id="log-in" autocomplete="off">
+          <div class="mb-3 par">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <i class="bi bi-exclamation-circle d-none iconr" id="first"></i>
+            <i class="bi bi-check-circle-fill  d-none icong" id="check"></i>
+            <div class="form-text">We'll never share your email with anyone else.</div>
+            <div id="emailHelp" class="form-text d-none sign text-danger">"@" missing!</div>
+            <div id="emailHelper" class="form-text d-none text-danger">"@" bundan sonrasini yaz</div>
+            <div class="mb-3 par">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password">
+              <i class="bi bi-exclamation-circle d-none iconr" id="warning"></i>
+              <i class="bi bi-check-circle-fill  d-none icong" id="checkz"></i>
+              <div class="form-text d-none signg text-danger">The length of the password must be greater than 6 and less
+                than 12</div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="login" href="ugurlu.html">Submit</button>
+
+        </form>
+
+      </div>
+    </div>
+
+
+    <div class="row justify-content-center py-5">
+      <div class="col-lg-4  ">
+        <h4>Yeni acaunt ac</h4>
+        <button type="submit" href="singup.html" id="submit" class="btn btn-success my-5">Sing up</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
